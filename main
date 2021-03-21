@@ -30,7 +30,7 @@ if __name__ == '__main__':
         username = 'tnquang'
         password = '@my_pass'
         target_path = 'db'
-        source_path = 'D:/gan_testing/fi_dataset_dirs/3/vimeo_training_release'
+        source_path = 'local_db'
         # Connect to remote host
         client = paramiko.SSHClient()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
