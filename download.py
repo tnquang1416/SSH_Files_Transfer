@@ -1,10 +1,15 @@
+'''
+Created on May 10, 2021
+
+@author: Quang Tran
+@link: https://tnquangblog.wordpress.com/2021/05/17/python-download-files-via-paramiko/
+'''
+
 import sys
 import os
 import paramiko
 import argparse
 
-
-file_list = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--port", type=str, default='123456', help="")
