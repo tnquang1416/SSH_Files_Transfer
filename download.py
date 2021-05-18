@@ -19,8 +19,7 @@ opt = parser.parse_args()
 
 def print_msg():
     msg = ''
-    msg += 'Download ' if opt.mode != '2' else 'Upload '
-    msg += 'from %s to %s ' % (opt.source, opt.target)
+    msg += 'Download from %s to %s ' % (opt.source, opt.target)
     msg += 'on %s at port %s.' % (opt.host, opt.port)
 
     print(msg)
